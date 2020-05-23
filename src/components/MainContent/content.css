@@ -1,0 +1,133 @@
+.background{
+    height:100vh;
+    width:100vw;
+    background: black;
+}
+
+.upperbar{
+    padding:0.2rem;
+    box-sizing: border-box;
+    display:flex;
+    flex-direction: row;
+    flex-wrap:nowrap;
+    justify-content: space-between;
+    align-items: center;
+    height:10%;
+    background-color:transparent;
+    width:100%;
+    flex: 0 0 auto;
+    /* border-bottom-width: 1px;
+    border-style: solid;
+    border-color: #23d669;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0; */
+    
+}
+
+.header-logo{
+    display: flex;
+    height:3rem;
+    width:12rem;
+    background-image: url('../../images/run_logo_header.png');
+    background-color: transparent;
+    border:transparent;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+.main{
+    height: 80%;
+    flex: 1 1;
+    overflow-x: hidden;
+}
+
+.menubtn{
+    height:3rem;
+    width:3rem;
+    background: url('../../images/menu.svg');
+    background-position:center;
+    background-color: transparent;
+    border:none;
+    z-index: 6;
+    margin-left: 40%;
+}
+
+.contact-container{
+    display: flex;
+    width: 12rem;
+    height:3rem;
+    flex-direction: row-reverse;
+}
+
+.contact-icon{
+    height: 85%;
+    width:50%;
+    background-image: url('./../../images/contact_white.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.contact-icon:hover{
+    background-image: url('./../../images/contact_green.png');
+    
+}
+
+.footer{
+    display:flex;
+    box-sizing: border-box;
+    height:10%;
+    align-items: center;
+    background-color:transparent;
+    width:100%;
+    padding-left: 1.5rem;
+    /* border-top: 1px solid #23d669; */
+}
+
+.footer-socialmedia-icon{
+    margin: 0.5rem;
+    border-radius: 50%;
+    background-color: #77807a;
+    transition: background-color 0.5s;
+}
+.footer-socialmedia-icon:hover{
+    background-color: #23d669;
+    
+}
+
+.footer-call-icon
+{
+    margin: 0.5rem;
+    border-radius: 50%;
+    background-color: #77807a;
+    transition: background-color 0.5s;
+    background-image: url('./../../images/callIcon.png');
+    background-size: 22px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.footer-call-icon:hover{
+    background-color: #23d669;
+}
+
+.contactModal-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:250px !important;
+    background: none !important;
+    border: 0px !important;
+}
+
+.subscriptionModal-content{ /* this class overrides the default class for the Popup element in content.js */
+    position: relative;
+    background: none !important;
+    width: 50%;
+    margin: auto;
+    border: 0px !important;
+    padding: 5px;
+}

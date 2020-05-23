@@ -1,0 +1,28 @@
+.AppComing {
+    display:flex;  
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url("./../../../images/backgroundImage.png");
+    height: 450px;
+    width:300px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+} 
+.my-node-enter {
+    opacity: 0;
+}
+.my-node-enter-active {
+    opacity: 1;
+    transition: opacity 200ms;
+}
+.my-node-exit {
+    opacity: 1;
+}
+.my-node-exit-active {
+    opacity: 0;
+    transition: opacity 200ms;
+}
+  

@@ -1,0 +1,51 @@
+.AppScreen {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+    background-color: transparent;
+    align-items: center;
+}
+
+.mobileContainer{
+    display: flex;
+    width: 40%;
+    height:100%;
+    flex-direction: row-reverse;
+    justify-content: start;
+    align-items: center;
+    background-color: black;
+}
+
+.textContainer{
+    height: 100%;
+    width:60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    margin-left: 1rem;
+}
+
+.headingText{
+    font-family: AdidasRedZone;
+    font-size: 60px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: 2.4px;
+    text-align: left;
+    color: #23d669;
+}
+
+.paragraphText{
+    font-family: CopperplateGothicRegular;
+    font-size: 22px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.32;
+    letter-spacing: normal;
+    text-align:justify;
+    color: #ffffff;
+}

@@ -1,0 +1,29 @@
+.content{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    height:100%;
+    background-color: Transparent;
+    width:100%;
+    justify-self: end;
+}
+.neverbefore{
+    text-align: center;
+    font-family: 'AdidasRedZone';
+    font-size:3rem;
+    color:white;
+    
+}
+
+.logo{
+    height: 150px; 
+    /* object-fit: contain; */
+    
+}
+
+.iconBarContainer{
+    margin-top: 40px;
+    width:70%;
+    object-fit: contain;
+}

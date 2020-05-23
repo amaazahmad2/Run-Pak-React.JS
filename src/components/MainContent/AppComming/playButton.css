@@ -1,0 +1,15 @@
+.PlayButton {
+    display:flex;
+    word-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    width:180px;
+    font-family: AdidasRedZone;
+    font-size: 2em;
+    letter-spacing: 1.38px;
+    text-align: center;
+    background: transparent;
+    outline: transparent;
+    color: #23d669;
+    position: relative;
+   }

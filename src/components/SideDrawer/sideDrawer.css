@@ -1,0 +1,83 @@
+.side-drawer{
+    width: 100%;
+    height:80%;
+    background: black;
+    position:fixed;
+    top: 10%;
+    left: 0;
+    bottom: 10%;
+    box-shadow: 1px 0px 1px #23D669;
+    z-index: 5; 
+    border-bottom-color: #23d669;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+}
+
+
+.side-drawer ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    flex-wrap: nowrap;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+}
+
+.side-drawer a{
+    width: 570px;
+    height: 119px;
+    -webkit-text-stroke: 1px #23f699;
+    font-family: AdidasRedZone;
+    font-size: 60px;
+    line-height: 1.91;
+    letter-spacing: 2.85px;
+    color: #100e0e;
+    text-decoration: none;
+}
+
+.side-drawer a:hover{
+    color: #23f699;
+    -webkit-text-stroke: 0px   
+}
+
+.side-drawer-container-enter {
+    height: 0px;
+}
+.side-drawer-container-exit-done {
+    height: 0px;
+}
+.side-drawer-container-enter-done {
+    height:80%;
+}
+.side-drawer-container-enter-active {
+    height:80%;
+    transition: height 400ms;
+}
+.side-drawer-container-exit {
+    height:80%;
+}
+.side-drawer-container-exit-active {
+    height: 0px;
+    transition: height 400ms;
+}
+
+.side-drawer-container-enter ul {
+    display: none;
+}
+.side-drawer-container-exit-done ul {
+    display: none;
+}
+.side-drawer-container-enter-done ul {
+    display: flex;
+    justify-content: space-around;
+}
+.side-drawer-container-exit ul {
+    display: none;
+}
+.side-drawer-container-exit-active ul{
+    display: none;
+    transition: height 400ms;
+}
+

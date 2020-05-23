@@ -1,0 +1,107 @@
+
+#modalContainer h5 {
+    font-size: 20px;
+    color: white;
+    font-family: CopperplateGothicRegular;
+    text-align: justify;
+}
+
+#modalContainer input[type="text"]{
+    border: 0;
+    background: transparent;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid white;
+    padding: 14px 10px;
+    width: 300px;
+    outline: none;
+    color: white;
+    border-radius: 5px;
+    border-width: 1.5px;
+    transition: 0.25s;
+    font-family: CopperplateGothicRegular;
+    font-size: 15px;
+}
+
+#modalContainer input[type="text"]:hover{
+        border-color: #3498db;
+}
+
+#modalContainer input[type="text"]:focus{
+        border-color: #23d669;
+        width: 400px;
+}
+
+    #modalContainer input[type='submit'] {
+    display: inline-block;
+    width: 90px;
+    padding: 7px 7px;
+    color: white;
+    font-size: 15px;
+    transition: 0.5s;
+    background-color: transparent;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: white;
+    margin: 10px;
+    border-width: 1.5px;
+    font-family: CopperplateGothicRegular;;
+    font-size: 15px;
+}
+
+#modalContainer input[type='submit']:hover {
+    background-color: #23d669;
+    border-color: #23d669;
+    width: 110px;
+}
+  
+#modalContainer {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    /* background-color: rgba(16, 26, 35, 1); */
+    background-color: black;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.gradient-border {
+    display: flex;
+    --borderWidth: 3px;
+    background: #1D1F20;
+    position: relative;
+    border-radius: var(--borderWidth);
+  }
+  .gradient-border:after {
+    content: '';
+    position: absolute;
+    top: calc(-1 * var(--borderWidth));
+    left: calc(-1 * var(--borderWidth));
+    height: calc(100% + var(--borderWidth) * 2);
+    width: calc(100% + var(--borderWidth) * 2);
+    background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+    border-radius: calc(2 * var(--borderWidth));
+    z-index: -1;
+    animation: animatedgradient 3s ease alternate infinite;
+    background-size: 300% 300%;
+  }
+  
+  
+  @keyframes animatedgradient {
+      0% {
+          background-position: 0% 50%;
+      }
+      50% {
+          background-position: 100% 50%;
+      }
+      100% {
+          background-position: 0% 50%;
+      }
+  }
+  
+  
+  
+
+

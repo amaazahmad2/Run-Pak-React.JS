@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 100%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+html{
+  width: 100%;
+}
+
+@font-face {
+  font-family: 'AdidasRedZone';
+  src: local('FiraSans'), url(./fonts/Adidas_Red_Zone.otf) format('truetype');
+}
+
+@font-face{
+  font-family: 'CopperplateGothicRegular';
+  src: local('FiraSans'), url(./fonts/Copperplate_Gothic_Regular.otf) format('truetype');
+}
