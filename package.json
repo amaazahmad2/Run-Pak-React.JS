@@ -6,7 +6,7 @@
   "dependencies": {
     "@animated-burgers/burger-rotate": "^1.1.2",
     "@animated-burgers/burger-squeeze": "^1.1.2",
-    "axios": "^0.19.1",
+    "axios": "^0.21.1",
     "bootstrap": "^4.4.1",
     "google-maps-react": "^2.0.2",
     "react": "^16.11.0",
